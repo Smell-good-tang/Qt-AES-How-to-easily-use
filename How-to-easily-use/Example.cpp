@@ -17,6 +17,8 @@ int main()
         QByteArray data      = "An example";
         QString    Plaintext = decrypt_algorithm(encrypt_and_decrypt, data);
     }
+
+    return 0;
 }
 
 QString encrypt_algorithm(const QString &keyword, const QString &Plaintext)
